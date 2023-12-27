@@ -24,7 +24,7 @@ function MovieList({ genreId }) {
 
 {        genreMovieList.map((item) => (
 
-            <img src={imageBaseUrl + item.backdrop_path} className='w-[200px] object-cover m-5 rounded-md hover:border-2 hover:scale-110 border-gray-200 transition-all duration-500 ease-in-out' />
+            <img src={imageBaseUrl + item.backdrop_path} className='w-[110px] md:w-[200px] object-cover m-5 rounded-md hover:border-2 hover:scale-110 border-gray-200 transition-all duration-500 ease-in-out' />
 
 
             ))}
