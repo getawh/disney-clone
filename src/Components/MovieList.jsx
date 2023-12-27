@@ -32,4 +32,4 @@ function MovieList({ genreId }) {
             )
 }
 
-export default MovieList
+export default MovieList 
